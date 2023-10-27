@@ -1,0 +1,84 @@
+* { 
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBox {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBox-buttonsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainBox-buttonsContainer-button {
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+    width: 32%;
+    text-decoration: none;
+    font-weight:600;
+    background-color: red;
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease-out;
+}
+
+.activeBtn {
+    color: white;
+    background-color: aqua;
+}
+
+.inactiveBtn:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.mainBox-columnsContainer {
+    display: flex;
+    flex-direction: row;
+    flex: auto 1 1;
+}
+
+.mainBox-columnsContainer-leftColumn {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBox-columnsContainer-rightColumn {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    display: flex;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>lab6</title>
+        <link rel="stylesheet" href="ind.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="mainBox">
+                <div class="mainBox-buttonsContainer">
+                    <a class="mainBox-buttonsContainer-button inactiveBtn" href="#" id="showLeftColumnBtn">Левая колонка</a>
+                    <a class="mainBox-buttonsContainer-button activeBtn" href="#" id="showBothBtn">Обе колонки</a>
+                    <a class="mainBox-buttonsContainer-button inactiveBtn" href="#" id="showRightColumnBtn">Правая колонка</a>
+                </div>
+                <div class="mainBox-columnsContainer">
+                    <div class="mainBox-columnsContainer-leftColumn" id="leftColumn">
+                        <div class="imageContainer">
+                            <img src="cat.jpg" class="image" id="catImg">
+                        </div>
+                    </div>
+                    <div class="mainBox-columnsContainer-rightColumn" id="rightColumn">
+                        <div class="imageContainer">
+                            <img src="dog.jpg" class="image" id="dogImg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
